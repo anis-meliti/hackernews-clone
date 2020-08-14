@@ -5,7 +5,7 @@ import CommentList from '../components/CommentList';
 const Story = ({ story }) => {
   if (!story) return <Error />;
   return (
-    <Layout title={story.title}>
+    <Layout title={story.title} backButton={true}>
       <main>
         <h1>
           <a href={story.url} target='_blank'>
