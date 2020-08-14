@@ -1,0 +1,18 @@
+{
+  "name": "hacker-news-clone",
+  "version": "1.0.0",
+  "description": "a clone of the website hackernews using Nextjs",
+  "main": "server.js",
+  "repository": "https://github.com/anis-meliti/hackernews-clone.git",
+  "author": "Anis Mell",
+  "license": "MIT",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^9.5.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "scripts": {
+    "dev": "next"
+  }
+}
